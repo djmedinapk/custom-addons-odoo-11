@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+	<act_window id="editar_invoices" 
+		  name="Editar Facturas" 
+		  res_model="account.invoice" 
+		  view_mode="tree,form" 
+		  target="current"
+		/> 
+	<menuitem id="account_invoices_edit_jocaagura.menu_edit_invoices" name="Editar Factura" action="editar_invoices"/>
+</data>
+</odoo>
